@@ -409,5 +409,6 @@ export class LaunchNavigator extends IonicNativePlugin {
   @Cordova({ sync: true })
   userSelect(destination: string | number[], options: LaunchNavigatorOptions): void {}
 
+  @Cordova({ sync: true })
   appSelection: AppSelection;
 }
